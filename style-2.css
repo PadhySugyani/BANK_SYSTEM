@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", serif;
+
+}
+body{
+    background: #E3F2FD;
+
+}
+.table-container{
+    padding: 0 10%;
+    margin: 40px auto 0;
+}
+.heading{
+    font-size: 40px;
+    text-align: center;
+    color: #031163;
+     margin-bottom: 40px; 
+}
+.customertable{
+    position: absolute;
+    left: 50%;
+    top: 53%;
+    width: 55%;
+    border-collapse: collapse;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+th{
+    background: #0D47A1   ;
+    color: #E0F7FA;
+    font-weight: medium;
+    font-size: 16px;
+    letter-spacing: 0.35px;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid #E3F2FD;
+
+}
+.customertable td{
+    font-size: 16px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: #031163;
+    background-color: #82B1FF;
+    text-align: center;
+    border: 1px solid #E3F2FD;
+    padding: 9px;
+
+}
+ .btn1{
+    text-decoration: none;
+    width: 130px;
+    line-height: 25px;
+    display: inline-block;
+    background-color: #1565C0;
+    font-weight: medium;
+    color: #E0F7FA;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-size: 16px;
+    opacity: 1;
+}
+.btn2{
+    width: 100px;
+    background-color: #1976D2;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+     padding: 5px; 
+    box-shadow: 0 0 10px rgba(12, 72, 238, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    margin-left: 0%;   
+}
+.btn1:hover, .btn1:focus, .btn1:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4s);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+.btn2 a{
+    text-decoration: none;
+    font-weight: normal;
+    color: #E0F7FA;
+    text-align: center;
+}
+ion-icon{
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
